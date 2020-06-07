@@ -1,0 +1,68 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.input {
+  display: inline;
+}
+.input :hover {
+  border-color: rgb(94, 94, 94);
+}
+
+.addButton {
+  display: inline;
+}
+.addButton :hover {
+  background-color: rgb(94, 94, 94);
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
+
+h1 {
+  background-color: antiquewhite;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+ul {
+  margin: auto;
+  max-width: 500px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 10px rgb(151, 148, 144);
+  padding: 0;
+  list-style: none;
+}
+
+ul :hover {
+  background-color: rgb(184, 153, 113);
+  color: rgb(255, 255, 255);
+}
+
+li {
+  /*margin: 10px;*/
+  padding: 5px;
+}
+
+li :hover {
+  background-color: rgb(94, 94, 94);
+  border: none;
+  border-radius: 3px;
+}
+.check {
+  float: left;
+}
+
+.delete {
+  float: right;
+}
+
+input :hover {
+  border: 5px;
+}
